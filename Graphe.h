@@ -13,7 +13,7 @@ using namespace std;
 
 class Graphe {
 
-    vector<Sommet> sommets;
+    vector<Sommet *> sommets;
 
 public:
     Graphe();
@@ -27,6 +27,9 @@ public:
     void supprimerArete(int valeur);
     void supprimerArete(int sommet1, int sommet2);
     void destroy();
+
+    void parcoursProfondeur();
+    void parcoursLargeur();
 
 };
 

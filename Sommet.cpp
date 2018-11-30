@@ -11,7 +11,8 @@ Sommet::Sommet(int val) {
     valeur = val;
 }
 
-Sommet::~Sommet() {}
+Sommet::~Sommet() {
+}
 
 void Sommet::addVoisins(int num, int poids) {
     voisins[num] = poids;
