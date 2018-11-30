@@ -13,8 +13,7 @@ using namespace std;
 
 class Graphe {
 
-    vector<Sommet *> *sommets = new vector<Sommet *>();
-
+    vector<Sommet> sommets;
 
 public:
     Graphe();
